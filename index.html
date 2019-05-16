@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ayush
+</title>
+</head>
+<body  >
+<style>
+#a{
+background-color: pink;
+width:100%;
+}
+#b{
+background-color:#E5E7E9  ;
+width:50%;
+}
+</style>
+<form action="java"     method=post name="form1" onsubmit="required()">
+<center>
+<div id="a">
+<h1>Login to use app<h1>
+</div>
+<br>
+<center><h3>purpose principle<h3>
+<div id="b">
+<h2>loginID:
+<input maxlength="20" type="text" name="username">
+<br>
+<h2>password:
+<input type="password" name ="password">
+<br>
+<input type="submit" name="login">
+
+</div>
+<br>
+<div>
+    
+<div>
+<center>
+<form>
+<script>
+function required()
+{
+var empt = document.forms["form1"]["username"].value;
+if (empt == "")
+{
+alert("Please input a Value");
+}
+}
+</script>
+</body>
+</html>
